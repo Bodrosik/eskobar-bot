@@ -80,4 +80,4 @@ async def permissions_error(interaction: discord.Interaction, error: app_command
 
 
 # === СЮДИ ВСТАВ СВІЙ СЕКРЕТНИЙ ТОКЕН БОТА (лапки залишай!) ===
-bot.run(os.getenv("DISCORD_TOKEN"))
+bot.run(os.environ.get('TOKEN'))
